@@ -1,0 +1,188 @@
+/* ---------- GLOBAL ---------- */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f6fb;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background: #121212;
+    color: #e6e6e6;
+}
+
+/* ---------- HEADER ---------- */
+header {
+    background: linear-gradient(135deg, #4b6cb7, #182848);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* ---------- DARK MODE BUTTON ---------- */
+#darkToggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+#darkToggle:hover {
+    background: #ffdd57;
+}
+
+/* ---------- NAVIGATION ---------- */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 18px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffdd57;
+}
+
+/* ---------- HERO SECTION ---------- */
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #333;
+}
+
+.hero h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #182848;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #4b6cb7;
+}
+
+/* ---------- CONTENT SECTIONS ---------- */
+section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode section {
+    background: #1e1e1e;
+}
+
+/* ---------- PROFILE PHOTO ---------- */
+.profile-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    border: 4px solid #4b6cb7;
+    transition: 0.3s;
+}
+
+.profile-photo:hover {
+    transform: scale(1.05);
+}
+
+/* ---------- PROJECT CARDS ---------- */
+.project-card {
+    background: #f9f9ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-left: 6px solid #4b6cb7;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    background: #eef1ff;
+}
+
+.dark-mode .project-card {
+    background: #2a2a2a;
+    border-left-color: #ffdd57;
+}
+
+/* ---------- GALLERY ---------- */
+.gallery {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.gallery img {
+    width: 32%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #182848;
+    color: white;
+    margin-top: 40px;
+}
